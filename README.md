@@ -10,3 +10,8 @@ In the ewma.py file, PSO, GSA & GA are used to find value of parameters of EWMA 
 
 **Other Existing Methods**  
 In this folder, existing methods of time series forecasting such as Double Smooting, Holt-Winter Additive & Holt-Winter Multiplicative are compared with EWMA best metaheuristic technique.
+
+Efficient Algorithm to Find Optimum Window Size for Time Series Forecasting
+
+ Using Particle Swarm Optimization, an algorithm was found to efficiently pre-process a time series and accurately predict both the window size and weights for moving average techniques such as SMA, WMA and EWMA. Using these parameters, the future values of the time series were predicted.
+Through experimental results, this algorithm was proved to be much more efficient than the ones currently in use, such as the Straightforward Method, Gravitational Search Algorithm and Genetic Algorithm.
